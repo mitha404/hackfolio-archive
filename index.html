@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="imag/icons8-logo-48.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-x" onclick="hideMenue()"></i>
+
+                <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">PROJECT</a></li>
+                <li><a href="">CONTACTS</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showMenue()"></i>
+        </nav>
+        <div class="text-box">
+            <h1> Hey, I'm Mitha </h1>
+            <p>Trying to learn code since i got to college. <br>And an aspiring artist with an undying passion to create, my sadness being my inspiration.</p>
+            <a href="" class="hero-btn">Know more about me :3 </a>
+        </div>
+    </section>
+
+    <!-- about -->
+
+    <section class="about">
+        <h1 class="h1">Here is what's about me.</h1>
+        <p>When being a part of a profession that roughly has a thirty percent survival rate,<br> it's easy to forgive people for indulging in a vice to alleviate fear and stress. <br>However, I may take it a bit far as I easily smoke a pack a day and am a sloppy drunk; I indulges wherever I can, and it's not always ideal. <br>After seeing so many of my buddies drop like flies one after the other, it's a surprise that I never became like my master. </p>
+        <div class="row">
+            <div class="about-row">
+                <h3></h3>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- projects -->
+    <section class="project">
+        <h1>My Projects</h1>
+
+        
+    </section>
+
+
+    <!-- java script -->
+    <script>
+        var navLinks =document.getElementById("navLinks");
+        function showMenue(){
+            navLinks.style.right="0";
+        }
+        function hideMenue(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
